@@ -1,0 +1,99 @@
+
+@font-face { 
+font-family: 'DroidKufi-Regular';
+src: url('../fonts/DroidKufi-Regular.eot');
+src: url('../fonts/DroidKufi-Regular.eot?') format('embedded-opentype'),
+url('../fonts/DroidKufi-Regular.woff') format('woff'),
+url('../fonts/DroidKufi-Regular.ttf') format('truetype'); }
+
+@font-face {
+  font-family: 'AvantGarde-Thin';
+  src: url('../fonts/AvantGarde-Thin.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvantGarde-Thin';
+  src:  url(data:application/x-font-woff;charset=utf-8;base64,) format('woff'),
+        url('../fonts/AvantGarde-Thin.ttf')  format('truetype'),
+        url('../fonts/AvantGarde-Thin.svg#AvantGarde-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body { font-family: 'AvantGarde-Thin' !important; }
+
+input[type="text"] , input[type="password"] , select , .form-control {
+    border-radius: 0;
+    width: 100%;
+}
+/*   admin panel  logon style */
+
+.logon .panel , .logon .panel-default , .dashboard .panel-default , .dashboard .panel{
+    border-radius: 0;
+}
+.logon {
+    margin-top: 60px;
+}
+.logon button {
+    margin-top: 10px;
+    padding: 7px 30px;
+}
+.logon input[type="checkbox"] {
+    margin: 3px 10px;
+}
+.logon input[type="text"] , .logon input[type="password"] , .logon button , .logon .input-group-addon {
+    border-radius: 0;
+}
+.logon .panel-default , .dashboard .panel-default {
+    border-top: 4px solid #999;
+}
+.logon .panel-heading , .dashboard .panel-heading {
+    padding: 3px 20px ;
+    background: #f9f9f9;
+}
+
+.logon .bg-danger {
+    padding: 10px;
+}
+
+.panel-body {
+    background: #fff;
+}
+
+ul.nav-tabs  li a {
+    background: #0B4C5F ;
+    color: #fff;
+    margin-right: 3px;
+}
+ul.nav-tabs  li.active a {
+    background: #F2F2F2 !important;
+}
+
+.label-admin {
+    width: 20%;
+}
+.meta-action {
+    width: 10%;
+}
+.pagination-centered {
+    text-align: center;
+}
+
+.image_wrapper {
+    border: 1px solid #ccc;
+    padding:10px;
+    height: 200px;
+    margin: 10px 0px;
+    overflow: hidden;
+}
+.image_wrapper img {
+    width: 100%;
+    height: 150px;
+}
+.image_wrapper input[type="checkbox"]{
+    
+    
+}
